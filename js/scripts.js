@@ -16,4 +16,18 @@ $(function() {
         }
        
     });
+
+    //Rreserve Button
+    $("#reserveButton").click(function(){
+        $('#reserveModal').modal('show');
+    });
+    
+
+ 
+
+    //Login Button
+    $('#loginButton').click(function(){
+        $('#loginModal').modal("show");
+    });
+
 });
